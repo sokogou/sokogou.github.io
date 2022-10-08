@@ -66,14 +66,88 @@
 				<span class="image main">
 					<img src="images/code.jpg" style="height: 200px;" alt="code picture" />
 				</span>
+				<!-- Modals Pop Up -->
+				<!-------------------------------- Home Page ---------------------->
+				<!--Creates the popup body-->
+				<div class="popup-overlay">
+					<!--Creates the popup content-->
+					<div class="popup-potition">
+						<div class="popup-content">
+							<!--popup's close button-->
+							<button id="closeHomePage" class="btn btn-sm">Close</button>
+							<img class="demoImgDimentions" src="" alt="homePage">
+						</div>
+					</div>
+				</div>
+				<!-------------------------------- Admin View --------------------->
+				<div class="popup-overlay">
+					<div class="popup-potition">
+						<div class="popup-content">
+							<button class="btn btn-sm closeHomePage">Close</button>
+							<img class="demoImgDimentions" src="" alt="admin view">
+						</div>
+					</div>
+				</div>
+				<!-------------------------------- Employee View --------------------->
+				<div class="popup-overlay">
+					<div class="popup-potition">
+						<div class="popup-content">
+							<button class="btn btn-sm closeHomePage">Close</button>
+							<img class="demoImgDimentions" src="/images/GroupProject/employeeView.png" alt="Employee View">
+						</div>
+					</div>
+				</div>
+				<!-------------------------------- Shop  --------------------->
+				<div class="popup-overlay">
+					<div class="popup-potition">
+						<div class="popup-content">
+							<button class="btn btn-sm closeHomePage">Close</button>
+							<img class="demoImgDimentions" src="/images/GroupProject/shop.png" alt="Shop">
+						</div>
+					</div>
+				</div>
+				<!-------------------------------- Cart  --------------------->
+				<div class="popup-overlay">
+					<div class="popup-potition">
+						<div class="popup-content">
+							<button class="btn btn-sm closeHomePage">Close</button>
+							<img class="demoImgDimentions" src="/images/GroupProject/shop.png" alt="Cart">
+						</div>
+					</div>
+				</div>
+				<!-------------------------------- Log In  --------------------->
+				<div class="popup-overlay">
+					<div class="popup-potition">
+						<div class="popup-content">
+							<button class="btn btn-sm closeHomePage">Close</button>
+							<img class="demoImgDimentions" src="/images/GroupProject/shop.png" alt="Log in view">
+						</div>
+					</div>
+				</div>
 				<p>
-				<div class="projectTitle letterColor">1 - ColorsTNS</div>
+				<div class="projectTitle letterColor">1 - ColorsTNC</div>
 				</br>
 				<div class="letterColor">
 					Using C# programming language for backend and angular 2 for front end, we generate
 					a web app which covers the needs of a modern hair salon.Keeps your customers data.
-					Creates and stores your color formulas for hair dyes.Controls your warehouse products.
+					Creates and stores your color formulas for hair dyes.Controls your warehouse products.Has it's
+					own shop, where visitor can purchase products and pay with paypal.
 					Implementing Authentication Authorization roles.Admin role has full access in all content.
+				</div>
+				</br>
+				<div class="demoImgsSector">
+					<h6>Demo Photos</h6>
+
+					<div class="demoImgs">
+						<button id="demoHomePage" class="btn btn-sm" value="/images/GroupProject/homePage.png">Home Page</button>
+						<button id="logInPage" class="btn btn-sm" value="/images/GroupProject/logInPage.png">Log In</button>
+						<button id="demoAdmin" class="btn btn-sm" value="/images/GroupProject/adminView.png">Admin View</button>
+						<button id="demoEmployee" class="btn btn-sm" value="/images/GroupProject/employeeView.png">Employee
+							View</button>
+						<button id="demoShop" class="btn btn-sm" value="images/GroupProject/shop.png">Shop</button>
+						<button id="demoCart" class="btn btn-sm" value="images/GroupProject/cart.png">Cart</button>
+
+					</div>
 				</div>
 				</br>
 				<div>
@@ -127,6 +201,8 @@
 			</article>
 		</div>
 
+
+
 		<!-- Footer -->
 		<footer id="footer">
 			<h6>Contacts</h6>
@@ -145,6 +221,12 @@
 
 	<!-- Scripts -->
 	<script src="assets/js/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+		integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+		crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+		integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+		crossorigin="anonymous"></script>
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>

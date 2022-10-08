@@ -31,10 +31,10 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	overflow-x: hidden;
 }
 
 .projectTitle{
-
 	font-size: 30px;
 	text-decoration: underline;
 }
@@ -56,6 +56,39 @@ nav>ul>li>a:hover{
 footer>ul>li>a:hover{
 	color: rgb(214, 214, 214);
 }
+
+/*------------- DEMO IMGS ----------- */
+.popup-overlay {
+	position:absolute;
+	visibility:hidden;
+	}
+	
+	.popup-content {
+	visibility:hidden;
+	}
+
+	.popup-potition{
+		position: absolute!important;
+		top: 0!important;
+		right: 0px!important;
+		bottom: 0!important;
+		left: -300px!important;
+		
+	}
+
+	.popup-overlay.active{
+		visibility:visible;
+		
+	}
+		
+	.popup-content.active {
+		visibility:visible;
+	}
+
+	.demoImgDimentions{
+		width: 1400px;
+	}
+/* --------------------------- */
 
 ol, ul {
 	list-style: none;
