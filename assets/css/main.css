@@ -56,18 +56,22 @@ nav>ul>li>a:hover{
 footer>ul>li>a:hover{
 	color: rgb(214, 214, 214);
 }
-
-/*------------- DEMO IMGS ----------- */
-.popup-overlay {
+/* Img Dimentions */
+.demoImgDimentions{
+	height: 700px;
+	width: 1200px;
+}
+/*------------- DEMO IMGS ColorsTNC ----------- */
+.popup-overlay-ColorsTNC {
 	position:absolute;
 	visibility:hidden;
 	}
 	
-	.popup-content {
+	.popup-content-ColorsTNC {
 	visibility:hidden;
 	}
 
-	.popup-potition{
+	.popup-potition-ColorsTNC{
 		position: absolute!important;
 		top: 0!important;
 		right: 0px!important;
@@ -76,18 +80,58 @@ footer>ul>li>a:hover{
 		
 	}
 
-	.popup-overlay.active{
+	.popup-overlay-ColorsTNC.active{
 		visibility:visible;
 		
 	}
 		
-	.popup-content.active {
+	.popup-content-ColorsTNC.active {
 		visibility:visible;
 	}
 
-	.demoImgDimentions{
-		width: 1400px;
+	#closeColorsTNC{
+		position: absolute;
+		margin-bottom: -100px;
+		background-color: rgb(152, 156, 168);
+		border-radius: 10px;
 	}
+
+/* --------------------------- */
+/*------------- DEMO IMGS ColorsTNC ----------- */
+.popup-overlay-Hollywoodland {
+	position:absolute;
+	visibility:hidden;
+	}
+	
+	.popup-content-Hollywoodland {
+	visibility:hidden;
+	}
+
+	.popup-potition-Hollywoodland{
+		position: absolute!important;
+		top: 450px!important;
+		right: 0!important;
+		bottom: 0!important;
+		left: -300px!important;
+		
+	}
+
+	.popup-overlay-Hollywoodland.active{
+		visibility:visible;
+		
+	}
+		
+	.popup-content-Hollywoodland.active {
+		visibility:visible;
+	}
+
+	#closeHollywoodland{
+		position: absolute;
+		margin-bottom: -100px;
+		background-color: rgb(152, 156, 168);
+		border-radius: 10px;
+	}
+
 /* --------------------------- */
 
 ol, ul {

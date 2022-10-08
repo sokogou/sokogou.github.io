@@ -5,77 +5,130 @@
 (function ($) {
 	// ===================  Start ColorsTNC ====================================
 	// Home Page
-	$("#demoHomePage").on("click", function () {
+	$("#ColorsTNCHomePage").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
-		$(".popup, .popup-content").addClass("active");
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$("#closeHomePage").on("click", function () {
-		$(".popup, .popup-content").removeClass("active");
+	$("#closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
 	// Log In
-	$("#logInPage").on("click", function () {
+	$("#ColorsTNClogInPage").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
-		$(".popup, .popup-content").addClass("active");
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeHomePage").on("click", function () {
-		$(".popup, .popup-content").removeClass("active");
+	$(".closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
 	// Admin View
-	$("#demoAdmin").on("click", function () {
+	$("#ColorsTNCAdmin").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
-		$(".popup, .popup-content").addClass("active");
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeHomePage").on("click", function () {
-		$(".popup, .popup-content").removeClass("active");
+	$(".closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
 	// Employee View
-	$("#demoEmployee").on("click", function () {
+	$("#ColorsTNCEmployee").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
-		$(".popup, .popup-content").addClass("active");
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeHomePage").on("click", function () {
-		$(".popup, .popup-content").removeClass("active");
+	$(".closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
 	// Shop
-	$("#demoShop").on("click", function () {
+	$("#ColorsTNCShop").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
-		$(".popup, .popup-content").addClass("active");
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeHomePage").on("click", function () {
-		$(".popup, .popup-content").removeClass("active");
+	$(".closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
-		// Cart
-		$("#demoCart").on("click", function () {
+	// Cart
+	$("#ColorsTNCCart").on("click", function () {
 
-			let imgUrl = $(this).attr('value');
-			$(".popup, .popup-content").addClass("active");
-			$('.demoImgDimentions').attr('src', imgUrl);
-		});
-	
-		$(".closeHomePage").on("click", function () {
-			$(".popup, .popup-content").removeClass("active");
-		});
-// ===================  End ColorsTNC ====================================
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-ColorsTNC").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$(".closeColorsTNC").on("click", function () {
+		$(".popup, .popup-content-ColorsTNC").removeClass("active");
+	});
+
+	// ===================  Start Hollywoodland ====================================
+
+	// Home Page
+	$("#HWLHomePage").on("click", function () {
+		let imgUrl = $(this).attr('value');
+
+		$(".popup, .popup-content-Hollywoodland").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeHollywoodland").on("click", function () {
+		$(".popup, .popup-content-Hollywoodland").removeClass("active");
+	});
+
+	// Movies
+	$("#HWLMovies").on("click", function () {
+
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-Hollywoodland").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeHollywoodland").on("click", function () {
+		$(".popup, .popup-content-Hollywoodland").removeClass("active");
+	});
+
+	// Movie Details
+	$("#HWLMovieDetails").on("click", function () {
+
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-Hollywoodland").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeHollywoodland").on("click", function () {
+		$(".popup, .popup-content-Hollywoodland").removeClass("active");
+	});
+
+	// Actors
+	$("#HWLActors").on("click", function () {
+
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-Hollywoodland").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeHollywoodland").on("click", function () {
+		$(".popup, .popup-content-Hollywoodland").removeClass("active");
+	});
+
+	// ===================  Start Hollywoodland ====================================
+
+
 	var $window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
