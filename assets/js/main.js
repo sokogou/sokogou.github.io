@@ -126,9 +126,46 @@
 		$(".popup, .popup-content-Hollywoodland").removeClass("active");
 	});
 
-	// ===================  Start Hollywoodland ====================================
+	// ===================  Start AngularApp ====================================
 
+	// Github
+	$("#GitHub").on("click", function () {
 
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-AngularApp").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeAngularApp").on("click", function () {
+		$(".popup, .popup-content-AngularApp").removeClass("active");
+	});
+
+	// Nobel
+	$("#Nobel").on("click", function () {
+
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-AngularApp").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeAngularApp").on("click", function () {
+		$(".popup, .popup-content-AngularApp").removeClass("active");
+	});
+	// ===================  Start WeatherApp ====================================
+
+	// View Page
+	$("#weatherAppAthens").on("click", function () {
+
+		let imgUrl = $(this).attr('value');
+		$(".popup, .popup-content-WeatherApp").addClass("active");
+		$('.demoImgDimentions').attr('src', imgUrl);
+	});
+
+	$("#closeWeatherApp").on("click", function () {
+		$(".popup, .popup-content-WeatherApp").removeClass("active");
+	});
+
+// ----------------------------------------------------
 	var $window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),

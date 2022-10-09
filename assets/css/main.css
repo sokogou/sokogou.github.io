@@ -45,7 +45,7 @@ body {
 	justify-content: center!important;
 }
 
-.letterColor{
+.letterColorWhite{
 	color: #fff;
 }
 
@@ -58,8 +58,8 @@ footer>ul>li>a:hover{
 }
 /* Img Dimentions */
 .demoImgDimentions{
-	height: 700px;
-	width: 1200px;
+	width: 420%;
+	border-radius: 10px;
 }
 /*------------- DEMO IMGS ColorsTNC ----------- */
 .popup-overlay-ColorsTNC {
@@ -91,9 +91,14 @@ footer>ul>li>a:hover{
 
 	#closeColorsTNC{
 		position: absolute;
-		margin-bottom: -100px;
-		background-color: rgb(152, 156, 168);
 		border-radius: 10px;
+		height: 40px;
+		width: 50px;
+		right:-340%;
+		padding-left: 21px;
+		padding-bottom: 55px;
+		color: #fff;
+		
 	}
 
 /* --------------------------- */
@@ -127,13 +132,96 @@ footer>ul>li>a:hover{
 
 	#closeHollywoodland{
 		position: absolute;
-		margin-bottom: -100px;
-		background-color: rgb(152, 156, 168);
 		border-radius: 10px;
+		height: 40px;
+		width: 50px;
+		right:-340%;
+		padding-left: 21px;
+		padding-bottom: 55px;
+		color: #fff;
 	}
 
 /* --------------------------- */
+/*------------- DEMO IMGS AngularApp ----------- */
+.popup-overlay-AngularApp {
+	position:absolute;
+	visibility:hidden;
+	}
+	
+	.popup-content-AngularApp {
+	visibility:hidden;
+	}
 
+	.popup-potition-AngularApp{
+		position: absolute!important;
+		top: 750px!important;
+		right: 0!important;
+		bottom: 0!important;
+		left: -300px!important;
+		
+	}
+
+	.popup-overlay-AngularApp.active{
+		visibility:visible;
+		
+	}
+		
+	.popup-content-AngularApp.active {
+		visibility:visible;
+	}
+
+	#closeAngularApp{
+		position: absolute;
+		border-radius: 10px;
+		height: 40px;
+		width: 50px;
+		right:-340%;
+		padding-left: 21px;
+		padding-bottom: 55px;
+		color: #fff;
+	}
+
+/* --------------------------- */
+/*------------- DEMO IMGS WeatherApp ----------- */
+.popup-overlay-WeatherApp {
+	position:absolute;
+	visibility:hidden;
+	}
+	
+	.popup-content-WeatherApp {
+	visibility:hidden;
+	}
+
+	.popup-potition-WeatherApp{
+		position: absolute!important;
+		top: 1000px!important;
+		right: 0!important;
+		bottom: 0!important;
+		left: -300px!important;
+		
+	}
+
+	.popup-overlay-WeatherApp.active{
+		visibility:visible;
+		
+	}
+		
+	.popup-content-WeatherApp.active {
+		visibility:visible;
+	}
+
+	#closeWeatherApp{
+		position: absolute;
+		border-radius: 10px;
+		height: 40px;
+		width: 50px;
+		right:-340%;
+		padding-left: 21px;
+		padding-bottom: 55px;
+		color: #fff;
+	}
+
+	/* ======================================================== */
 ol, ul {
 	list-style: none;
 }
