@@ -36,7 +36,7 @@
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeColorsTNC").on("click", function () {
+	$("#closeColorsTNC").on("click", function () {
 		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
@@ -48,7 +48,7 @@
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeColorsTNC").on("click", function () {
+	$("#closeColorsTNC").on("click", function () {
 		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
@@ -60,7 +60,7 @@
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeColorsTNC").on("click", function () {
+	$("#closeColorsTNC").on("click", function () {
 		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 
@@ -72,7 +72,7 @@
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
 
-	$(".closeColorsTNC").on("click", function () {
+	$("#closeColorsTNC").on("click", function () {
 		$(".popup, .popup-content-ColorsTNC").removeClass("active");
 	});
 

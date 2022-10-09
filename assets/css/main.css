@@ -61,6 +61,37 @@ footer>ul>li>a:hover{
 	width: 420%;
 	border-radius: 10px;
 }
+	/* Media */
+	@media  (max-width: 580px) {
+		.demoImgDimentions {
+			width: 160%!important;
+			margin-left:280px;
+		}
+		#closeColorsTNC{
+			position: absolute;
+			padding-bottom: 0px!important;
+			left:235%;
+			bottom:1%;
+		}
+		#closeHollywoodland{
+			position: absolute;
+			padding-bottom: 0px!important;
+			left:235%;
+			bottom:1%;
+		}
+		#closeAngularApp{
+			position: absolute;
+			padding-bottom: 0px!important;
+			left:235%;
+			bottom:1%;
+		}
+		#closeWeatherApp{
+			position: absolute;
+			padding-bottom: 0px!important;
+			left:235%;
+			bottom:1%;
+		}
+	}
 /*------------- DEMO IMGS ColorsTNC ----------- */
 .popup-overlay-ColorsTNC {
 	position:absolute;
@@ -74,10 +105,9 @@ footer>ul>li>a:hover{
 	.popup-potition-ColorsTNC{
 		position: absolute!important;
 		top: 0!important;
-		right: 0px!important;
+		right: 0!important;
 		bottom: 0!important;
 		left: -300px!important;
-		
 	}
 
 	.popup-overlay-ColorsTNC.active{
@@ -137,7 +167,7 @@ footer>ul>li>a:hover{
 		width: 50px;
 		right:-340%;
 		padding-left: 21px;
-		padding-bottom: 55px;
+		padding-bottom: 40px;
 		color: #fff;
 	}
 
@@ -1849,3 +1879,5 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	
