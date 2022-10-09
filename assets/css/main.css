@@ -56,6 +56,7 @@ nav>ul>li>a:hover{
 footer>ul>li>a:hover{
 	color: rgb(214, 214, 214);
 }
+
 /* Img Dimentions */
 .demoImgDimentions{
 	width: 420%;
@@ -112,11 +113,12 @@ footer>ul>li>a:hover{
 
 	.popup-overlay-ColorsTNC.active{
 		visibility:visible;
-		
+		background-color: rgba(0,0,0,0.5);
 	}
 		
 	.popup-content-ColorsTNC.active {
 		visibility:visible;
+		background-color: rgba(0,0,0,0.5);
 	}
 
 	#closeColorsTNC{
@@ -167,7 +169,7 @@ footer>ul>li>a:hover{
 		width: 50px;
 		right:-340%;
 		padding-left: 21px;
-		padding-bottom: 40px;
+		padding-bottom: 55px;
 		color: #fff;
 	}
 
