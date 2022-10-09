@@ -64,31 +64,31 @@ footer>ul>li>a:hover{
 	/* Media */
 	@media  (max-width: 580px) {
 		.demoImgDimentions {
-			width: 160%!important;
+			width: 150%!important;
 			margin-left:280px;
 		}
 		#closeColorsTNC{
 			position: absolute;
 			padding-bottom: 0px!important;
-			left:235%;
+			left:225%;
 			bottom:1%;
 		}
 		#closeHollywoodland{
 			position: absolute;
 			padding-bottom: 0px!important;
-			left:235%;
+			left:225%;
 			bottom:1%;
 		}
 		#closeAngularApp{
 			position: absolute;
 			padding-bottom: 0px!important;
-			left:235%;
+			left:225%;
 			bottom:1%;
 		}
 		#closeWeatherApp{
 			position: absolute;
 			padding-bottom: 0px!important;
-			left:235%;
+			left:225%;
 			bottom:1%;
 		}
 	}
