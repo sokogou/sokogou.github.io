@@ -1,13 +1,19 @@
 
 
-
-
 (function ($) {
+	classesArray = ['popup-content-ColorsTNC', 'popup-content-Hollywoodland', 'popup-content-AngularApp', 'popup-content-WeatherApp']
+	const removeClasses = () => {
+		classesArray.map(classA => {
+			const query = ".popup, ." + classA;
+			$(query).removeClass("active");
+		})
+	}
 	// ===================  Start ColorsTNC ====================================
 	// Home Page
 	$("#ColorsTNCHomePage").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -20,6 +26,7 @@
 	$("#ColorsTNClogInPage").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -32,6 +39,7 @@
 	$("#ColorsTNCAdmin").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -44,6 +52,7 @@
 	$("#ColorsTNCEmployee").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -56,6 +65,7 @@
 	$("#ColorsTNCShop").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -68,6 +78,7 @@
 	$("#ColorsTNCCart").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-ColorsTNC").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -82,6 +93,7 @@
 	$("#HWLHomePage").on("click", function () {
 		let imgUrl = $(this).attr('value');
 
+		removeClasses();
 		$(".popup, .popup-content-Hollywoodland").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -94,6 +106,7 @@
 	$("#HWLMovies").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-Hollywoodland").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -106,6 +119,7 @@
 	$("#HWLMovieDetails").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-Hollywoodland").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -118,6 +132,7 @@
 	$("#HWLActors").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-Hollywoodland").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -132,6 +147,7 @@
 	$("#GitHub").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-AngularApp").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -144,6 +160,7 @@
 	$("#Nobel").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-AngularApp").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -157,6 +174,7 @@
 	$("#weatherAppAthens").on("click", function () {
 
 		let imgUrl = $(this).attr('value');
+		removeClasses();
 		$(".popup, .popup-content-WeatherApp").addClass("active");
 		$('.demoImgDimentions').attr('src', imgUrl);
 	});
@@ -165,7 +183,7 @@
 		$(".popup, .popup-content-WeatherApp").removeClass("active");
 	});
 
-// ----------------------------------------------------
+	// ----------------------------------------------------
 	var $window = $(window),
 		$body = $('body'),
 		$wrapper = $('#wrapper'),
@@ -457,6 +475,7 @@
 			.on('click', function () {
 				location.hash = '';
 			});
+
 
 		// Prevent clicks from inside article from bubbling.
 		$this.on('click', function (event) {
